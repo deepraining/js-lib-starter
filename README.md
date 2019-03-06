@@ -19,9 +19,9 @@ npm install
 - The distribution files are: `lib/index.js(commonjs), lib/m.js(esm), lib/umd.js(umd)`
 - Build command: `npm run build`
 
-## Only for Node.js
+## To build a library only for Node.js
 
 If you want to build a library only for Node.js, you can make it as follows:
 
-- Remove `rollup.config.js`, and rename `rollup.node.config.js` to `rollup.config.js`.
+- Remove existed `rollup.config.js` file, and rename `rollup.node.config.js` to `rollup.config.js`.
 - Remove `module, umd:main` fields of `package.json`.
