@@ -37,7 +37,7 @@
     "flow:check": "flow check",
     "build": "rollup -c",
     "build-node": "rollup -c rollup.node.config.js",
-    "prepublishOnly": "npm run build",
+    "prepublish": "npm run build",
     "test": "jest",
     "test-watch": "jest --watch --notify",
     "test-cover": "jest --coverage",
