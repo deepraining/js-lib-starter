@@ -20,6 +20,8 @@ export default [
   output,
   plugins: [
     babel({
+      babelrc: false,
+      configFile: false,
       presets: ['@babel/preset-env', '@babel/preset-flow'],
       plugins: ['@babel/plugin-proposal-class-properties'],
     }),

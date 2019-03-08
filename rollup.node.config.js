@@ -10,6 +10,8 @@ export default {
   },
   plugins: [
     babel({
+      babelrc: false,
+      configFile: false,
       presets: ['@babel/preset-flow'],
     }),
     json(),
